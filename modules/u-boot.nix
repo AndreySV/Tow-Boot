@@ -18,7 +18,8 @@ let
   tbPatch =
     rev: sha256:
     fetchpatch {
-      url = "https://github.com/Tow-Boot/U-Boot/commit/${rev}.patch";
+    # url = "https://github.com/Tow-Boot/U-Boot/commit/${rev}.patch";
+      url = "https://github.com/AndreySV/Tow-Boot-U-Boot/commit/${rev}.patch";
       inherit sha256;
     }
   ;

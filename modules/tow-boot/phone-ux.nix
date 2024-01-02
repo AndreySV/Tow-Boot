@@ -195,7 +195,7 @@ in
             # Remove the useless delay from boot.
             # With blind UX, the user will already be holding
             # the buttons to trigger an action.
-            BOOTDELAY = lib.mkForce (freeform "0");
+            BOOTDELAY = lib.mkForce (freeform "1");
           })
         ];
       };

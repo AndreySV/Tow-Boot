@@ -75,6 +75,7 @@ in
           "tb-2023.07-007-rc1" = "sha256-vAB7MHn5VZEo3fPR7zWADpUMJ14Una90JrXRSPI9T9U=";
           "tb-2023.07-007-rc2" = "sha256-ENE2bSPUfdFqXLmZFBWfYS/sJ6sXqPr2QjO0XdFzido=";
           "tb-2023.07-007-rc3" = "sha256-/eKHISaHLiNikk4gWoOSIPd2D3xiG1A/TSGUPEzhfZQ=";
+	  "tb-2023.07-007-rc3.1" = "sha256-ZHcTAB/pEM1vuCiGfcmQhMiKjhCoj0MsCeS81TJ9+rk=";
         };
       };
 
@@ -91,8 +92,10 @@ in
       else
         let knownHashes = config.Tow-Boot.knownHashes.Tow-Boot; in
         mkDefault (pkgs.fetchFromGitHub {
-          repo = "U-Boot";
-          owner = "Tow-Boot";
+          # repo = "U-Boot";
+          # owner = "Tow-Boot";
+	  repo = "Tow-Boot-U-Boot";
+          owner = "AndreySV";
           rev = "${tag}";
           sha256 =
             if knownHashes ? ${tag}
