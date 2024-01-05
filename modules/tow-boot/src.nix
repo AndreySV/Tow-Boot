@@ -76,6 +76,7 @@ in
           "tb-2023.07-007-rc2" = "sha256-ENE2bSPUfdFqXLmZFBWfYS/sJ6sXqPr2QjO0XdFzido=";
           "tb-2023.07-007-rc3" = "sha256-/eKHISaHLiNikk4gWoOSIPd2D3xiG1A/TSGUPEzhfZQ=";
 	  "tb-2023.07-007-rc3.1" = "sha256-ZHcTAB/pEM1vuCiGfcmQhMiKjhCoj0MsCeS81TJ9+rk=";
+	  "tb-2023.07-007-rc3.2" = "sha256-sqhnlu1kYPqsXPttvbmect8yvTd8VS0PDVYzY4w8jG4=";
         };
       };
 
